@@ -64,11 +64,9 @@ header{
 #features   {
     background: white;
     position: relative;
-    top: -20px;
-    right: -15px;
     padding: 7% 15%;
     font-family: 'Ubuntu', sans-serif;
-    
+    margin: 0;
 
 }
 #features h3 {
@@ -77,4 +75,7 @@ header{
 }
 #features .col-lg-4{
     padding-top: 50px;
+}
+#features p{
+    color: grey;
 }
