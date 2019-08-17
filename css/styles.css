@@ -52,3 +52,28 @@ header{
     width: 60%;
     transform: rotate(25deg);
 }
+/* Font Awesome */
+.fa-check-circle, .fa-bullseye, .fa-heart {
+    color: #ff667d; size: 9x;
+    padding: 20px;
+}
+.fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover{
+    color: #ff4c68; size: 9x;
+    
+}
+#features   {
+    background: white;
+    position: relative;
+    top: -20px;
+    right: -15px;
+    font-family: 'Ubuntu', sans-serif;
+    
+
+}
+#features h3 {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+#features .col-lg-4{
+    padding-top: 50px;
+}
