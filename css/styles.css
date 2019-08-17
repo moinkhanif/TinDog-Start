@@ -4,6 +4,7 @@
 } */
 body    {
     font-family: 'Montserrat', sans-serif;
+    
 }
 #title  {
     color: #fff;
@@ -54,28 +55,61 @@ header{
 }
 /* Font Awesome */
 .fa-check-circle, .fa-bullseye, .fa-heart {
-    color: #ff667d; size: 9x;
+    color: #ff8566; size: 9x;
     padding: 20px;
 }
 .fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover{
     color: #ff4c68; size: 9x;
     
 }
+/* Features Section */
 #features   {
     background: white;
     position: relative;
-    padding: 7% 15%;
+    
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
-
+    
 }
 #features h3 {
     font-weight: 700;
     font-size: 1.8rem;
 }
 #features .col-lg-4{
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 #features p{
     color: grey;
+}
+/* Testimonial styles  */
+#testimonials   {
+    text-align: center;
+    background: #ef8172;
+    color: white;
+    
+}
+#testimonials h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image  {
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testi-wrap {
+    padding: 7% 15%;
+}
+/* Press Styling */
+#press  {
+    background: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width:15%;
+    padding: 20px 20px 50px;
 }
