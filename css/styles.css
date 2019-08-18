@@ -70,8 +70,8 @@ header{
     position: relative;
     padding: 7% 15%;
     font-family: 'Ubuntu', sans-serif;
-    /* margin: 0; */
-    /* z-index: 1; */
+    margin: 0;
+    
 }
 h3 {
     font-weight: 700;
@@ -124,4 +124,14 @@ h2{
 .pricing-column{
     padding: 3% 2%;
     
+}
+/* Media Queries */
+@media (max-width:993px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
 }
