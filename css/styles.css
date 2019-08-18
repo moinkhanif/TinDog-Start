@@ -125,6 +125,28 @@ h2{
     padding: 3% 2%;
     
 }
+
+/* CTA Section */
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+    background: #ff4c68;
+    color: white;
+    
+}
+#cta h3 {
+    font-size: 3rem;
+}
+ /* Footer */
+
+ footer {
+     text-align: center;
+     padding: 7% 15%;
+ }
+ footer i {
+     padding: 12px;
+     color: black;
+ }
 /* Media Queries */
 @media (max-width:993px) {
     .title-image {
@@ -133,5 +155,6 @@ h2{
     }
     #title {
         text-align: center;
+        
     }
 }
